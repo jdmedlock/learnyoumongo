@@ -19,5 +19,5 @@ to learn the MongoDB environment and capabilities:
 | INSERT               | insert.js        |
 | UPDATE               | update.js        |
 | REMOVE               | remove.js        |
-| COUNT                | |
+| COUNT                | count.js         |
 | AGGREGATE            | |
