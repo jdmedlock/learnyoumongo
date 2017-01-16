@@ -1,4 +1,4 @@
-// Program: find.js
+// Program: findproject.js
 // Author:  Jim Medlock
 // Date written: 1/16/2017
 
