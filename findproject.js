@@ -49,6 +49,10 @@ const mongo = require("mongodb").MongoClient;
 const url = "mongodb://localhost:27017/learnyoumongo"
 
 mongo.connect(url, function(err, db) {
+    if (err) {
+      throw err;
+    }
+    
     const ageToCheck = process.argv[2];
     const parrots = db.collection("parrots");
     parrots.find({
@@ -58,6 +62,9 @@ mongo.connect(url, function(err, db) {
         age: 1,
         _id: 0
     }).toArray(function(err, documents) {
+        if (err) {
+          throw err;
+        }
         console.log(documents);
     });
     db.close();
