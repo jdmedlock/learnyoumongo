@@ -15,7 +15,7 @@ to learn the MongoDB environment and capabilities:
 | CONNECT              | N/a              |
 | FIND                 | find.js          |
 | FIND PROJECT         | findproject.js   |
-| INSERT               | |
+| INSERT               | insert.js        |
 | UPDATE               | |
 | REMOVE               | |
 | COUNT                | |
