@@ -5,6 +5,7 @@ learnyoumongo-series of FCC exercises.
 
 - Start MongoDB - ./mongodb
 - Start Mongo terminal session - mongo
+- Repair corrupted MongoDB - ./mongod --repair
 
 This series of exercises consists of the following Javascript programs used 
 to learn the MongoDB environment and capabilities:
@@ -17,6 +18,6 @@ to learn the MongoDB environment and capabilities:
 | FIND PROJECT         | findproject.js   |
 | INSERT               | insert.js        |
 | UPDATE               | update.js        |
-| REMOVE               | |
+| REMOVE               | remove.js        |
 | COUNT                | |
 | AGGREGATE            | |
