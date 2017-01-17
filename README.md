@@ -20,4 +20,4 @@ to learn the MongoDB environment and capabilities:
 | UPDATE               | update.js        |
 | REMOVE               | remove.js        |
 | COUNT                | count.js         |
-| AGGREGATE            | |
+| AGGREGATE            | aggregate.js     |
